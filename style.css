@@ -154,3 +154,16 @@ input[type=submit]:hover{
       margin-top: 0;
     }
   }
+
+  .scroll-container{
+    background-color: #ffffff;
+    overflow: auto;
+    white-space: nowrap;
+    padding:10px;
+    padding-left: 10px;
+  }
+
+  .scroll-container img{
+    width: 200px;
+    padding:10px;
+  }
