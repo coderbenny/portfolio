@@ -107,3 +107,50 @@ body{
       display: block;
     }
   }
+
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit]{
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor:pointer;
+}
+
+input[type=submit]:hover{
+    background-color: #45a049;
+}
+
+.contacts-container{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+.column-1{
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+}
+
+.row-1::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 650px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
